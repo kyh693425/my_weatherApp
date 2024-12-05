@@ -44,18 +44,24 @@ React와 TypeScript를 사용해 제작되었으며, 직관적이고 깔끔한 U
 
 ---
 
-## 📂 프로젝트 구조
+# 📂 프로젝트 구조
+
 ```plaintext
 my_weatherApp/
-├── public/            # 정적 파일
-├── src/
-│   ├── components/    # 컴포넌트 파일
-│   ├── styles/        # 스타일링 파일
-│   ├── utils/         # 유틸리티 함수
-│   ├── App.tsx        # 메인 애플리케이션 파일
-│   └── index.tsx      # 진입점 파일
-├── package.json       # 프로젝트 설정 파일
-└── README.md          # 프로젝트 설명 파일
+├── .expo/               # Expo 관련 설정 파일
+├── .expo-shared/        # 공유된 Expo 설정 파일
+├── assets/              # 이미지, 폰트 등 정적 자산 파일
+├── video/               # 비디오 파일
+├── .gitignore           # Git에서 추적하지 않을 파일 목록
+├── App.js               # 메인 애플리케이션 컴포넌트
+├── Loading.js           # 로딩 화면 컴포넌트
+├── README.md            # 프로젝트 설명 파일 (영어)
+├── README_kr.md         # 프로젝트 설명 파일 (한국어)
+├── Weather.js           # 날씨 정보 표시 컴포넌트
+├── app.json             # Expo 애플리케이션 설정 파일
+├── babel.config.js      # Babel 설정 파일
+├── package-lock.json    # 의존성 버전 고정 파일
+└── package.json         # 프로젝트 설정 및 의존성 목록 파일
 ```
 
 ---

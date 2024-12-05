@@ -44,16 +44,22 @@ ReactとTypeScriptで作成されており、直感的でシンプルなUIを提
 
 ---
 
-## 📂 プロジェクト構造
+# 📂 プロジェクト構造
+
 ```plaintext
 my_weatherApp/
-├── public/            # 静的ファイル
-├── src/
-│   ├── components/    # コンポーネントファイル
-│   ├── styles/        # スタイリングファイル
-│   ├── utils/         # ユーティリティ関数
-│   ├── App.tsx        # メインアプリケーションファイル
-│   └── index.tsx      # エントリポイントファイル
-├── package.json       # プロジェクト設定ファイル
-└── README.md          # プロジェクト説明ファイル
+├── .expo/               # Expoに関連する設定ファイル
+├── .expo-shared/        # 共有されたExpo設定ファイル
+├── assets/              # 画像、フォントなどの静的アセットファイル
+├── video/               # 天気背景用ビデオファイル
+├── .gitignore           # Gitで追跡しないファイルリスト
+├── App.js               # メインアプリケーションコンポーネント
+├── Loading.js           # ローディング画面コンポーネント
+├── README.md            # プロジェクト説明ファイル（日本語）
+├── README_kr.md         # プロジェクト説明ファイル（韓国語）
+├── Weather.js           # 天気情報表示コンポーネント
+├── app.json             # Expoアプリケーション設定ファイル
+├── babel.config.js      # Babel設定ファイル
+├── package-lock.json    # 依存関係のバージョンを固定するファイル
+└── package.json         # プロジェクト設定と依存関係リストファイル
 ```
